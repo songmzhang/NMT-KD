@@ -1,10 +1,10 @@
 #!/bin/bash
 set -e
-export PYTHONPATH=$code_dir:$PYTHONPATH
-export CUDA_VISIBLE_DEVICES=1
-
 work_dir=path_to_your_project
 code_dir=$work_dir/fairseq-kd
+
+export PYTHONPATH=$code_dir:$PYTHONPATH
+export CUDA_VISIBLE_DEVICES=1
 
 setting=base_wmt14ende_student_baseline
 output_dir=$work_dir/ckpts/$setting

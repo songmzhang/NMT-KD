@@ -1,12 +1,12 @@
 #! /bin/bash
 set -e
-export PYTHONPATH=$code_dir:$PYTHONPATH
-export CUDA_VISIBLE_DEVICES=0,1,2,3
-
 work_dir=path_to_your_project
 code_dir=$work_dir/fairseq-kd
 data_dir=path_to_your_data
 bin_dir=$data_dir/data-bin
+
+export PYTHONPATH=$code_dir:$PYTHONPATH
+export CUDA_VISIBLE_DEVICES=0,1,2,3
 
 setting=base_wmt14ende_tie_kd_rank_top5_iter3
 output_dir=$work_dir/ckpts/$setting

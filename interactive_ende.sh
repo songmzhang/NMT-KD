@@ -1,13 +1,13 @@
 #!/bin/bash
 set -e
-export PYTHONPATH=$code_dir:$PYTHONPATH
-export CUDA_VISIBLE_DEVICES=0
-
 work_dir=path_to_your_project
 code_dir=$work_dir/fairseq-kd
 data_dir=path_to_your_data
 bin_dir=$data_dir/data-bin
 moses_dir=path_to_mosesdecoder
+
+export PYTHONPATH=$code_dir:$PYTHONPATH
+export CUDA_VISIBLE_DEVICES=0
 
 setting=base_wmt14ende_student_baseline
 output_dir=$work_dir/ckpts/$setting
