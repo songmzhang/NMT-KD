@@ -52,7 +52,7 @@ Then we use fairseq-interactive to generate translations with the averaged model
 ```shell
 bash interactive_ende.sh
 ```
-We use multi-bleu.perl in [mosesdecoder](https://github.com/moses-smt/mosesdecoder) to calculate the tokenized BLEU scores of the translations.
+We use `multi-bleu.perl` in [mosesdecoder](https://github.com/moses-smt/mosesdecoder) to calculate the tokenized BLEU scores of the translations. Besides, we also use [COMET](https://github.com/Unbabel/COMET) ([`Unbabel/wmt20-comet-da`](https://huggingface.co/Unbabel/wmt20-comet-da)) for more comprehensive evaluation
 
 ## Citation
 
