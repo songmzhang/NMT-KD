@@ -53,3 +53,17 @@ Then we use fairseq-interactive to generate translations with the averaged model
 bash interactive_ende.sh
 ```
 We use multi-bleu.perl in [mosesdecoder](https://github.com/moses-smt/mosesdecoder) to calculate the tokenized BLEU scores of the translations.
+
+## Citation
+
+Please cite this paper if you use this repo.
+
+```
+@article{zhang2023towards,
+  title={Towards Understanding and Improving Knowledge Distillation for Neural Machine Translation},
+  author={Zhang, Songming and Liang, Yunlong and Wang, Shuaibo and Han, Wenjuan and Liu, Jian and Xu, Jinan and Chen, Yufeng},
+  journal={arXiv preprint arXiv:2305.08096},
+  year={2023}
+}
+```
+
