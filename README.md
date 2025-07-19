@@ -1,5 +1,5 @@
 # NMT-KD
-Code for ACL2023 paper "Towards Understanding and Improving Knowledge Distillation for Neural Machine Translation". [[paper]([arxiv.org/pdf/2305.08096.pdf](https://arxiv.org/pdf/2305.08096.pdf))]
+Code for ACL2023 paper "Towards Understanding and Improving Knowledge Distillation for Neural Machine Translation". [[paper](https://arxiv.org/pdf/2305.08096.pdf)]
 
 ## Requirements
 - python version == 3.7.0
